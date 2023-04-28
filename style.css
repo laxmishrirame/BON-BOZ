@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap');
+
+
+.intro-title:after {
+  position: absolute;
+  content: '';
+  display: block;
+  background: url(https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/shape-1.svg) no-repeat;
+  width: 52px;
+  height: 70px;
+  top: 75px;
+  right: 140px;
+  background-size: auto 70px;
+}
+*{
+  font-family: 'Inter', sans-serif;
+  outline: 0 !important;
+}
+/* .dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+
+a {
+  
+  text-decoration: none;
+  -webkit-transition: .5s;
+  transition: all .5s;
+}
+
+
+li {
+  text-align: -webkit-match-parent;
+
+}
+li a{
+  color: black;
+}
+ul {
+  list-style: none;
+}
+
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+
+img {
+  object-fit: cover;
+  overflow: clip;
+}
+
+/* top slider */
+.elementor-nav-menu__container {
+  top: 0px !important;
+}
+
+#menuhopin.headershow {
+  transform: translateY(0);
+}
+
+.wrapper-slider{
+  width: 95%;
+  margin: auto ;
+  position: relative;
+  display: flex;
+  flex-direction: flex-end;
+}
+
+#menuhopin {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  -webkit-transition: transform 0.34s ease;
+  transition: transform 0.34s ease;
+  transform: translateY(-110px);
+  /*adjust this value to the height of your header*/
+  z-index: 999;
+  display: flex;
+  background-color: #eeeeee;
+  align-items: center;
+}
+
+.slider-btn{
+  position: absolute;
+  top: 20px;
+  right: 3rem;
+}
+
+/* button of read more and view all */
+
+.btn-link {
+  display: inline-block;
+  text-decoration: none;
+  padding-bottom: 2px;
+  position: relative;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000103;
+  letter-spacing: 1px;
+}
+
+
+
+.btn-link:after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  left: 0;
+  bottom: 0;
+  background-color: #000103;
+  transition: all .5s;
+}
+.btn-link.whiteLine:after{
+  background-color: white;
+}
+
+.dropdown{
+  font-family: inherit;
+}
+
+.main_logo{
+  width: 25%;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left:-100px;
+  background-color: white;
+  min-width: 350px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding:0;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+
+
+.dropdown-content a:hover,  .inner-dropdown-content a:hover, .nav-item:hover{
+  color: steelblue
+ 
+}
+
+.wrapper-ul{
+  padding: 0;
+}
+.inner-dropdown-one{
+  padding: 1rem 2rem;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content .inner-dropdown-one:hover {
+  background-color: #f1f1f1;
+
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.inner-dropdown-content {
+  font-family: inherit;
+  display: none;
+  position: absolute;
+  left:350px;
+  top:0px;
+  font-weight: 300;
+  background-color: whitesmoke;
+  border-radius: 0px 15px 15px 0;
+  border-top: rgb(243, 234, 234) solid 1px;
+  border-right: rgb(243, 234, 234) solid 1px;
+    border-bottom: rgb(243, 234, 234) solid 1px;
+    border-left: lightblue solid 10px;
+  min-width: 300px;
+  min-height: 430px;
+  z-index: 1;
+}
+
+/* Links inside the inner-dropdown */
+.inner-dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of inner-dropdown links on hover */
+
+
+.inner-dropdown-one:hover .dropOne {
+  display: block;
+}
+.navbar-nav{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.social li {
+  padding: 0.3rem 0.45rem;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease;
+
+}
+
+
+.social li:hover{
+  background-color: #EEEEEE;
+  border-color: black;
+}
+ .nav-item {
+  transition: all .4s ease;
+ }
+ .wrapper{
+  margin: 0 10%;
+ }
+
+ @media screen and (max-width:1200px){
+  .sample-work{
+    display: flex;
+    flex-direction: column;
+  }
+ }
+
+@media screen and (max-width:1150px){
+  .nav-item{
+    font-size: .8em;
+  }
+  .wrapper{
+    margin: 0 5% ;
+    padding: 0 5% ;
+  }
+ 
+}
+
+@media screen and (max-width:990px) {
+ 
+
+  .intro-title:after {
+
+    background: none;
+
+  }
+
+  .wrapper {
+    margin: 0;
+    padding: 0;
+  }
+
+    .dropdown-content {
+    
+      left: 0px;
+      top: 30px;
+      background-color: white;
+      min-width: 200px;
+    }
+    .inner-dropdown-one img{
+      width: 50px;
+      height: 50px;
+    }
+    .inner-dropdown-one{
+      padding: 3px 10px;
+      margin: 0;
+    }
+
+      .inner-dropdown-content {
+        
+        left: 200px;
+        top: 0px;
+        min-width: 200px;
+        min-height: 263px;
+        z-index: 1;
+      }
+
+      .get-started{
+        width: 125px;
+      }
+
+            .wrapper-slider {
+              width: 100%;
+            }
+
+      .footer-flex{
+        display: flex;
+        flex-direction: column;
+      }
+      .footer-flex .footer-div{
+        margin: 0;
+        width: 100%;
+        padding: 0;
+      }
+
+
+}
+ 
